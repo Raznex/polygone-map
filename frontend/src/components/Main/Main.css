@@ -1,0 +1,116 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
+    border: 2px solid #38333F80;
+    border-radius: 15px;
+    background: #FFFFFF;
+}
+
+
+.form-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #38333F80;
+}
+
+.input {
+    width: 240px;
+    padding: 5px 10px;
+    gap: 10px;
+    border-radius: 10px;
+    border: 1px solid #38333F80;
+}
+
+.text-area {
+    width: 240px;
+    height: 100px;
+    resize: none;
+}
+
+.form-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.button {
+    padding: 10px 15px;
+    border-radius: 10px;
+    background-color: #2d2d2d;
+    color: white;
+    border: none;
+}
+
+.button-delete {
+    background-color: #b21212;
+}
+
+.button-clear {
+    background-color: #00243b;
+}
+
+.container {
+    display: flex;
+    align-items: flex-start;
+}
+
+.polygons-container {
+    height: 600px;
+    overflow-y: auto;
+    background-color: white;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    margin-left: 15px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #38333F80;
+}
+
+.polygons-container::-webkit-scrollbar {
+    width: 4px;
+}
+.polygons-container::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+.polygons-container::-webkit-scrollbar-thumb {
+    background-color: #969696;
+    border-radius: 4px;
+}
+
+.button-name {
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: 1px solid #2d2d2d;
+    width: 100%;
+    cursor: pointer;
+    scale: 1;
+    transition: scale 0.3s ease;
+    font-size: 16px;
+    background-color: transparent;
+}
+
+.button-name:hover {
+    scale: 1.06;
+}
